@@ -1,3 +1,5 @@
+Deployed on: [gist-explorer.vercel.app](https://gist-explorer.vercel.app)
+
 Uses:
 
 1. [Nextjs](https://github.com/zeit/next.js/)
@@ -7,5 +9,6 @@ Uses:
 
 ## Todo
 
+- [ ] Unit Tests
 - [ ] Handle Rate Limit
 - [ ] Use Suspsense?

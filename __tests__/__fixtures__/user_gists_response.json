@@ -1,0 +1,429 @@
+[
+  {
+    "url": "https://api.github.com/gists/ba388fe8c5a58ed30d065d19d6f56ebd",
+    "forks_url": "https://api.github.com/gists/ba388fe8c5a58ed30d065d19d6f56ebd/forks",
+    "commits_url": "https://api.github.com/gists/ba388fe8c5a58ed30d065d19d6f56ebd/commits",
+    "id": "ba388fe8c5a58ed30d065d19d6f56ebd",
+    "node_id": "MDQ6R2lzdGJhMzg4ZmU4YzVhNThlZDMwZDA2NWQxOWQ2ZjU2ZWJk",
+    "git_pull_url": "https://gist.github.com/ba388fe8c5a58ed30d065d19d6f56ebd.git",
+    "git_push_url": "https://gist.github.com/ba388fe8c5a58ed30d065d19d6f56ebd.git",
+    "html_url": "https://gist.github.com/ba388fe8c5a58ed30d065d19d6f56ebd",
+    "files": {
+      "registration.html": {
+        "filename": "registration.html",
+        "type": "text/html",
+        "language": "HTML",
+        "raw_url": "https://gist.githubusercontent.com/abusada/ba388fe8c5a58ed30d065d19d6f56ebd/raw/21e0b1beb03a6c04a0074644f1d11d8ee7c22291/registration.html",
+        "size": 838
+      }
+    },
+    "public": true,
+    "created_at": "2020-11-10T17:27:04Z",
+    "updated_at": "2020-11-10T17:27:05Z",
+    "description": "",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/ba388fe8c5a58ed30d065d19d6f56ebd/comments",
+    "owner": {
+      "login": "abusada",
+      "id": 2572320,
+      "node_id": "MDQ6VXNlcjI1NzIzMjA=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2572320?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/abusada",
+      "html_url": "https://github.com/abusada",
+      "followers_url": "https://api.github.com/users/abusada/followers",
+      "following_url": "https://api.github.com/users/abusada/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abusada/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abusada/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abusada/subscriptions",
+      "organizations_url": "https://api.github.com/users/abusada/orgs",
+      "repos_url": "https://api.github.com/users/abusada/repos",
+      "events_url": "https://api.github.com/users/abusada/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abusada/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "truncated": false
+  },
+  {
+    "url": "https://api.github.com/gists/daf573d82836ad2dde7dcc2830a9b54e",
+    "forks_url": "https://api.github.com/gists/daf573d82836ad2dde7dcc2830a9b54e/forks",
+    "commits_url": "https://api.github.com/gists/daf573d82836ad2dde7dcc2830a9b54e/commits",
+    "id": "daf573d82836ad2dde7dcc2830a9b54e",
+    "node_id": "MDQ6R2lzdGRhZjU3M2Q4MjgzNmFkMmRkZTdkY2MyODMwYTliNTRl",
+    "git_pull_url": "https://gist.github.com/daf573d82836ad2dde7dcc2830a9b54e.git",
+    "git_push_url": "https://gist.github.com/daf573d82836ad2dde7dcc2830a9b54e.git",
+    "html_url": "https://gist.github.com/daf573d82836ad2dde7dcc2830a9b54e",
+    "files": {
+      "index.html": {
+        "filename": "index.html",
+        "type": "text/html",
+        "language": "HTML",
+        "raw_url": "https://gist.githubusercontent.com/abusada/daf573d82836ad2dde7dcc2830a9b54e/raw/b58bb35b22b1a893762be1b16c512f97f3a25d6f/index.html",
+        "size": 152
+      },
+      "script.js": {
+        "filename": "script.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/abusada/daf573d82836ad2dde7dcc2830a9b54e/raw/1630d7883591c2e122534de0c93f68d66cde3b97/script.js",
+        "size": 25188
+      },
+      "scripts": {
+        "filename": "scripts",
+        "type": "text/plain",
+        "language": null,
+        "raw_url": "https://gist.githubusercontent.com/abusada/daf573d82836ad2dde7dcc2830a9b54e/raw/d095ae95089c518a9910949818cef289af1a04d6/scripts",
+        "size": 184
+      },
+      "style.css": {
+        "filename": "style.css",
+        "type": "text/css",
+        "language": "CSS",
+        "raw_url": "https://gist.githubusercontent.com/abusada/daf573d82836ad2dde7dcc2830a9b54e/raw/d0ba9a4aac0e184e6cf23acfc6467694cc6a6a6d/style.css",
+        "size": 455
+      },
+      "three-js-audio-visualiser.markdown": {
+        "filename": "three-js-audio-visualiser.markdown",
+        "type": "text/markdown",
+        "language": "Markdown",
+        "raw_url": "https://gist.githubusercontent.com/abusada/daf573d82836ad2dde7dcc2830a9b54e/raw/d6faacb5bf0b2a4a2d637a2c8f651cdc18940b13/three-js-audio-visualiser.markdown",
+        "size": 293
+      }
+    },
+    "public": true,
+    "created_at": "2020-04-15T22:35:12Z",
+    "updated_at": "2020-04-15T22:35:12Z",
+    "description": "THREE.js Audio Visualiser",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/daf573d82836ad2dde7dcc2830a9b54e/comments",
+    "owner": {
+      "login": "abusada",
+      "id": 2572320,
+      "node_id": "MDQ6VXNlcjI1NzIzMjA=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2572320?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/abusada",
+      "html_url": "https://github.com/abusada",
+      "followers_url": "https://api.github.com/users/abusada/followers",
+      "following_url": "https://api.github.com/users/abusada/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abusada/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abusada/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abusada/subscriptions",
+      "organizations_url": "https://api.github.com/users/abusada/orgs",
+      "repos_url": "https://api.github.com/users/abusada/repos",
+      "events_url": "https://api.github.com/users/abusada/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abusada/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "truncated": false
+  },
+  {
+    "url": "https://api.github.com/gists/f757c753683c24b85f86def2b97c150c",
+    "forks_url": "https://api.github.com/gists/f757c753683c24b85f86def2b97c150c/forks",
+    "commits_url": "https://api.github.com/gists/f757c753683c24b85f86def2b97c150c/commits",
+    "id": "f757c753683c24b85f86def2b97c150c",
+    "node_id": "MDQ6R2lzdGY3NTdjNzUzNjgzYzI0Yjg1Zjg2ZGVmMmI5N2MxNTBj",
+    "git_pull_url": "https://gist.github.com/f757c753683c24b85f86def2b97c150c.git",
+    "git_push_url": "https://gist.github.com/f757c753683c24b85f86def2b97c150c.git",
+    "html_url": "https://gist.github.com/f757c753683c24b85f86def2b97c150c",
+    "files": {
+      "machine.js": {
+        "filename": "machine.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/abusada/f757c753683c24b85f86def2b97c150c/raw/ca4ccb94d7f725069db25e1706622f3c6377bfb8/machine.js",
+        "size": 2805
+      }
+    },
+    "public": true,
+    "created_at": "2020-03-05T14:07:40Z",
+    "updated_at": "2020-03-05T14:10:55Z",
+    "description": "Generated by XState Viz: https://xstate.js.org/viz",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/f757c753683c24b85f86def2b97c150c/comments",
+    "owner": {
+      "login": "abusada",
+      "id": 2572320,
+      "node_id": "MDQ6VXNlcjI1NzIzMjA=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2572320?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/abusada",
+      "html_url": "https://github.com/abusada",
+      "followers_url": "https://api.github.com/users/abusada/followers",
+      "following_url": "https://api.github.com/users/abusada/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abusada/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abusada/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abusada/subscriptions",
+      "organizations_url": "https://api.github.com/users/abusada/orgs",
+      "repos_url": "https://api.github.com/users/abusada/repos",
+      "events_url": "https://api.github.com/users/abusada/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abusada/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "truncated": false
+  },
+  {
+    "url": "https://api.github.com/gists/4072c55577ef7660f8389e17638bb0a4",
+    "forks_url": "https://api.github.com/gists/4072c55577ef7660f8389e17638bb0a4/forks",
+    "commits_url": "https://api.github.com/gists/4072c55577ef7660f8389e17638bb0a4/commits",
+    "id": "4072c55577ef7660f8389e17638bb0a4",
+    "node_id": "MDQ6R2lzdDQwNzJjNTU1NzdlZjc2NjBmODM4OWUxNzYzOGJiMGE0",
+    "git_pull_url": "https://gist.github.com/4072c55577ef7660f8389e17638bb0a4.git",
+    "git_push_url": "https://gist.github.com/4072c55577ef7660f8389e17638bb0a4.git",
+    "html_url": "https://gist.github.com/4072c55577ef7660f8389e17638bb0a4",
+    "files": {
+      "machine.js": {
+        "filename": "machine.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/abusada/4072c55577ef7660f8389e17638bb0a4/raw/e8b0cbbd8067d2655c65b72fc6ddec04588f059a/machine.js",
+        "size": 2287
+      }
+    },
+    "public": true,
+    "created_at": "2020-02-19T16:33:50Z",
+    "updated_at": "2020-02-19T16:33:50Z",
+    "description": "Generated by XState Viz: https://xstate.js.org/viz",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/4072c55577ef7660f8389e17638bb0a4/comments",
+    "owner": {
+      "login": "abusada",
+      "id": 2572320,
+      "node_id": "MDQ6VXNlcjI1NzIzMjA=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2572320?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/abusada",
+      "html_url": "https://github.com/abusada",
+      "followers_url": "https://api.github.com/users/abusada/followers",
+      "following_url": "https://api.github.com/users/abusada/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abusada/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abusada/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abusada/subscriptions",
+      "organizations_url": "https://api.github.com/users/abusada/orgs",
+      "repos_url": "https://api.github.com/users/abusada/repos",
+      "events_url": "https://api.github.com/users/abusada/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abusada/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "truncated": false
+  },
+  {
+    "url": "https://api.github.com/gists/858bd4c025b10c29057e592daa6861b7",
+    "forks_url": "https://api.github.com/gists/858bd4c025b10c29057e592daa6861b7/forks",
+    "commits_url": "https://api.github.com/gists/858bd4c025b10c29057e592daa6861b7/commits",
+    "id": "858bd4c025b10c29057e592daa6861b7",
+    "node_id": "MDQ6R2lzdDg1OGJkNGMwMjViMTBjMjkwNTdlNTkyZGFhNjg2MWI3",
+    "git_pull_url": "https://gist.github.com/858bd4c025b10c29057e592daa6861b7.git",
+    "git_push_url": "https://gist.github.com/858bd4c025b10c29057e592daa6861b7.git",
+    "html_url": "https://gist.github.com/858bd4c025b10c29057e592daa6861b7",
+    "files": {
+      "machine.js": {
+        "filename": "machine.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/abusada/858bd4c025b10c29057e592daa6861b7/raw/9026e507ec2276c979bee90b0dd2c08d995515f9/machine.js",
+        "size": 3761
+      }
+    },
+    "public": true,
+    "created_at": "2020-01-16T18:58:12Z",
+    "updated_at": "2020-01-17T12:19:13Z",
+    "description": "Generated by XState Viz: https://xstate.js.org/viz",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/858bd4c025b10c29057e592daa6861b7/comments",
+    "owner": {
+      "login": "abusada",
+      "id": 2572320,
+      "node_id": "MDQ6VXNlcjI1NzIzMjA=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2572320?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/abusada",
+      "html_url": "https://github.com/abusada",
+      "followers_url": "https://api.github.com/users/abusada/followers",
+      "following_url": "https://api.github.com/users/abusada/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abusada/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abusada/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abusada/subscriptions",
+      "organizations_url": "https://api.github.com/users/abusada/orgs",
+      "repos_url": "https://api.github.com/users/abusada/repos",
+      "events_url": "https://api.github.com/users/abusada/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abusada/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "truncated": false
+  },
+  {
+    "url": "https://api.github.com/gists/95bab3e176ebb80f778085c567c95ff5",
+    "forks_url": "https://api.github.com/gists/95bab3e176ebb80f778085c567c95ff5/forks",
+    "commits_url": "https://api.github.com/gists/95bab3e176ebb80f778085c567c95ff5/commits",
+    "id": "95bab3e176ebb80f778085c567c95ff5",
+    "node_id": "MDQ6R2lzdDk1YmFiM2UxNzZlYmI4MGY3NzgwODVjNTY3Yzk1ZmY1",
+    "git_pull_url": "https://gist.github.com/95bab3e176ebb80f778085c567c95ff5.git",
+    "git_push_url": "https://gist.github.com/95bab3e176ebb80f778085c567c95ff5.git",
+    "html_url": "https://gist.github.com/95bab3e176ebb80f778085c567c95ff5",
+    "files": {
+      "cloudSettings": {
+        "filename": "cloudSettings",
+        "type": "text/plain",
+        "language": null,
+        "raw_url": "https://gist.githubusercontent.com/abusada/95bab3e176ebb80f778085c567c95ff5/raw/985cc786569c57d730cf1f27b159d27d90da3f85/cloudSettings",
+        "size": 69
+      },
+      "extensions.json": {
+        "filename": "extensions.json",
+        "type": "application/json",
+        "language": "JSON",
+        "raw_url": "https://gist.githubusercontent.com/abusada/95bab3e176ebb80f778085c567c95ff5/raw/31fa584fc6bc1904919b5f2d11536783ce25265c/extensions.json",
+        "size": 8352
+      },
+      "globalStorage|ms-vsliveshare.vsliveshare|dotnet-3.0.0|shared|Microsoft.NETCore.App|3.0.0|Microsoft.NETCore.App.deps.json": {
+        "filename": "globalStorage|ms-vsliveshare.vsliveshare|dotnet-3.0.0|shared|Microsoft.NETCore.App|3.0.0|Microsoft.NETCore.App.deps.json",
+        "type": "application/json",
+        "language": "JSON",
+        "raw_url": "https://gist.githubusercontent.com/abusada/95bab3e176ebb80f778085c567c95ff5/raw/86e73ab9ec84882db5f0200b4dbe1c88b79fa1a7/globalStorage%7Cms-vsliveshare.vsliveshare%7Cdotnet-3.0.0%7Cshared%7CMicrosoft.NETCore.App%7C3.0.0%7CMicrosoft.NETCore.App.deps.json",
+        "size": 38217
+      },
+      "globalStorage|ms-vsliveshare.vsliveshare|dotnet-3.1.1|shared|Microsoft.NETCore.App|3.1.1|Microsoft.NETCore.App.deps.json": {
+        "filename": "globalStorage|ms-vsliveshare.vsliveshare|dotnet-3.1.1|shared|Microsoft.NETCore.App|3.1.1|Microsoft.NETCore.App.deps.json",
+        "type": "application/json",
+        "language": "JSON",
+        "raw_url": "https://gist.githubusercontent.com/abusada/95bab3e176ebb80f778085c567c95ff5/raw/62807836e869039d62ff3c2dde4b401b96fb43db/globalStorage%7Cms-vsliveshare.vsliveshare%7Cdotnet-3.1.1%7Cshared%7CMicrosoft.NETCore.App%7C3.1.1%7CMicrosoft.NETCore.App.deps.json",
+        "size": 40756
+      },
+      "keybindings.json": {
+        "filename": "keybindings.json",
+        "type": "application/json",
+        "language": "JSON",
+        "raw_url": "https://gist.githubusercontent.com/abusada/95bab3e176ebb80f778085c567c95ff5/raw/23ca3db4bfe4526aa725f78f1a3acebd63d0f787/keybindings.json",
+        "size": 8
+      },
+      "keybindingsMac.json": {
+        "filename": "keybindingsMac.json",
+        "type": "application/json",
+        "language": "JSON",
+        "raw_url": "https://gist.githubusercontent.com/abusada/95bab3e176ebb80f778085c567c95ff5/raw/23ca3db4bfe4526aa725f78f1a3acebd63d0f787/keybindingsMac.json",
+        "size": 8
+      },
+      "settings.json": {
+        "filename": "settings.json",
+        "type": "application/json",
+        "language": "JSON",
+        "raw_url": "https://gist.githubusercontent.com/abusada/95bab3e176ebb80f778085c567c95ff5/raw/278d4baf9ebaab8a5e9c7922d21c60e97823e720/settings.json",
+        "size": 2357
+      },
+      "snippets|React Function Component.code-snippets": {
+        "filename": "snippets|React Function Component.code-snippets",
+        "type": "text/plain",
+        "language": null,
+        "raw_url": "https://gist.githubusercontent.com/abusada/95bab3e176ebb80f778085c567c95ff5/raw/89e10e4ea6256166faa0d96986c5c439aebdae88/snippets%7CReact%20Function%20Component.code-snippets",
+        "size": 1004
+      },
+      "snippets|formattedMessage.code-snippets": {
+        "filename": "snippets|formattedMessage.code-snippets",
+        "type": "text/plain",
+        "language": null,
+        "raw_url": "https://gist.githubusercontent.com/abusada/95bab3e176ebb80f778085c567c95ff5/raw/9659366609b862de25645dd182032bd14058b0a9/snippets%7CformattedMessage.code-snippets",
+        "size": 840
+      },
+      "snippets|import styleguide.code-snippets": {
+        "filename": "snippets|import styleguide.code-snippets",
+        "type": "text/plain",
+        "language": null,
+        "raw_url": "https://gist.githubusercontent.com/abusada/95bab3e176ebb80f778085c567c95ff5/raw/ecb7069fcfe4b894ab924df2a14e9e59a156458b/snippets%7Cimport%20styleguide.code-snippets",
+        "size": 853
+      }
+    },
+    "public": true,
+    "created_at": "2018-02-14T16:11:01Z",
+    "updated_at": "2020-03-10T11:11:26Z",
+    "description": "Visual Studio Code Settings Sync Gist",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/95bab3e176ebb80f778085c567c95ff5/comments",
+    "owner": {
+      "login": "abusada",
+      "id": 2572320,
+      "node_id": "MDQ6VXNlcjI1NzIzMjA=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2572320?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/abusada",
+      "html_url": "https://github.com/abusada",
+      "followers_url": "https://api.github.com/users/abusada/followers",
+      "following_url": "https://api.github.com/users/abusada/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abusada/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abusada/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abusada/subscriptions",
+      "organizations_url": "https://api.github.com/users/abusada/orgs",
+      "repos_url": "https://api.github.com/users/abusada/repos",
+      "events_url": "https://api.github.com/users/abusada/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abusada/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "truncated": false
+  },
+  {
+    "url": "https://api.github.com/gists/354aff0816ca5d82e853fa7672a8c264",
+    "forks_url": "https://api.github.com/gists/354aff0816ca5d82e853fa7672a8c264/forks",
+    "commits_url": "https://api.github.com/gists/354aff0816ca5d82e853fa7672a8c264/commits",
+    "id": "354aff0816ca5d82e853fa7672a8c264",
+    "node_id": "MDQ6R2lzdDM1NGFmZjA4MTZjYTVkODJlODUzZmE3NjcyYThjMjY0",
+    "git_pull_url": "https://gist.github.com/354aff0816ca5d82e853fa7672a8c264.git",
+    "git_push_url": "https://gist.github.com/354aff0816ca5d82e853fa7672a8c264.git",
+    "html_url": "https://gist.github.com/354aff0816ca5d82e853fa7672a8c264",
+    "files": {
+      "src|routes|home|index.js": {
+        "filename": "src|routes|home|index.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/abusada/354aff0816ca5d82e853fa7672a8c264/raw/0398ce3b33b3525f51e4212f36828dffd444f406/src%7Croutes%7Chome%7Cindex.js",
+        "size": 739
+      },
+      "tools|webpack.config.js": {
+        "filename": "tools|webpack.config.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/abusada/354aff0816ca5d82e853fa7672a8c264/raw/d19421a90e95fe70966ba5ef325d05a451294402/tools%7Cwebpack.config.js",
+        "size": 7134
+      }
+    },
+    "public": true,
+    "created_at": "2016-09-26T11:23:57Z",
+    "updated_at": "2016-09-26T11:23:57Z",
+    "description": "Code Splitting Example",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/354aff0816ca5d82e853fa7672a8c264/comments",
+    "owner": {
+      "login": "abusada",
+      "id": 2572320,
+      "node_id": "MDQ6VXNlcjI1NzIzMjA=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2572320?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/abusada",
+      "html_url": "https://github.com/abusada",
+      "followers_url": "https://api.github.com/users/abusada/followers",
+      "following_url": "https://api.github.com/users/abusada/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abusada/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abusada/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abusada/subscriptions",
+      "organizations_url": "https://api.github.com/users/abusada/orgs",
+      "repos_url": "https://api.github.com/users/abusada/repos",
+      "events_url": "https://api.github.com/users/abusada/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abusada/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "truncated": false
+  }
+]

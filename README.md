@@ -10,8 +10,9 @@ Uses:
 3. [react-syntax-highlighter](https://github.com/react-syntax-highlighter/react-syntax-highlighter)
 4. [swr](https://swr.vercel.app/)
 
+
 ## Todo
 
-- [ ] Unit Tests
-- [ ] Handle Rate Limit
-- [ ] Use Suspsense?
+- [ ] Better `Loading...` components
+- [ ] Handle Github Rate Limit
+

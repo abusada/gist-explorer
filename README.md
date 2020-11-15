@@ -1,4 +1,7 @@
+
 Deployed on: [gist-explorer.vercel.app](https://gist-explorer.vercel.app)
+
+This is an assignement for a frontend interview - [see details here](Frontend%20Assignment%20Test.pdf)
 
 Uses:
 

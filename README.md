@@ -15,6 +15,10 @@ This is an assignement for a frontend interview - [see details here](Frontend%20
 3. If the user has recent searched they will be displayed under the search field
 4. Selecting a recent item will set it as the value in the search field and trigger a search
 
+## Gists List
+1. Appears as the second column, displays the user's gists in a list
+2. For each gist, the user can see it's name (uses first filename, inspired from [github's UI](https://gist.github.com/abusada))
+
 ## Techincal Decisions
 
 ### Recents

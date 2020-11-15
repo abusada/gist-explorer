@@ -17,7 +17,16 @@ This is an assignement for a frontend interview - [see details here](Frontend%20
 
 ## Gists List
 1. Appears as the second column, displays the user's gists in a list
-2. For each gist, the user can see it's name (uses first filename, inspired from [github's UI](https://gist.github.com/abusada))
+2. For each gist, the user can see 
+  a. Gist's name (uses first filename, inspired from [github's UI](https://gist.github.com/abusada))
+  b. Gist's description
+  c. Gist's programming langauges
+
+## Gist Details
+1. has two sections (tabs)
+ a. Gist files, displays files with syntax highlighting, User can click on a file to see it's full code in a fullscreen
+ b. Forks, displays a list of users who forked this gist.
+ 
 
 ## Techincal Decisions
 

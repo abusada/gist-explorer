@@ -6,7 +6,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import React, { useState } from "react";
+import React, { useState, useReducer } from "react";
 import GistsList from "../components/GistsList";
 import UserSearch from "../components/UserSearch";
 
@@ -14,7 +14,6 @@ import Slide from "@material-ui/core/Slide";
 import GistView from "../components/GistView";
 
 const useStyles = makeStyles((theme) => ({
-  root: {},
   appBar: {
     marginBottom: 20,
   },
@@ -28,19 +27,48 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Home() {
-  const classes = useStyles();
-  const [user, setUser] = useState(null);
-  const [gist, setGist] = useState(null);
+const initialState = {
+  user: null,
+  gist: null,
+};
 
-  const handleGistSelect = (gist) => setGist(gist);
-  const handleNewSearch = () => {
-    setUser(null);
-    setGist(null);
-  };
+function reducer(state, action) {
+  switch (action.type) {
+    case "newSearch":
+      return initialState;
+      break;
+    case "userSelected":
+      return {
+        ...state,
+        gist: null,
+        user: action.payload,
+      };
+      break;
+    case "gistSelected":
+      return {
+        ...state,
+        gist: action.payload,
+      };
+      break;
+  }
+}
+
+export default function GistExplorer() {
+  const classes = useStyles();
+
+  const [state, dispatch] = useReducer(reducer, initialState);
+  const { user, gist } = state;
+
+  const handleGistSelect = (payload) =>
+    dispatch({ type: "gistSelected", payload });
+
+  const handleUserSelect = (payload) =>
+    dispatch({ type: "userSelected", payload });
+
+  const handleNewSearch = () => dispatch({ type: "newSearch" });
 
   return (
-    <div className={classes.root}>
+    <div>
       <AppBar position="static" className={classes.appBar}>
         <Toolbar variant="dense">
           <IconButton edge="start" color="inherit" aria-label="menu">
@@ -61,7 +89,7 @@ export default function Home() {
               Search github users
             </Typography>
             <UserSearch
-              onSelect={setUser}
+              onSelect={handleUserSelect}
               selectedUser={user}
               onSearchInitiated={handleNewSearch}
             />

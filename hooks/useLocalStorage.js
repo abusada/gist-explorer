@@ -1,16 +1,12 @@
 import { useEffect, useState } from "react";
-
+import useClientSideOnly from "./useClientSideOnly";
 // Needed to use two-pass rendering here
 // Since we can only access localStorage on the client side
 // https://reactjs.org/docs/react-dom.html#hydrate
 
 export default function useLocalStorage(key, initialValue) {
-  const [isClient, setIsClient] = useState(false);
+  const isClient = useClientSideOnly();
   const [storedValue, setStoredValue] = useState(initialValue);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
 
   useEffect(() => {
     try {

@@ -18,21 +18,23 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+export function computeGistTitle(ownerName, files) {
+  return ownerName + "/" + Object.keys(files)[0];
+}
+
+export function extractGistLanguges(files) {
+  const languages = Object.values(files)
+    .map((file) => file.language)
+    .filter(Boolean);
+  const dedupe = Array.from(new Set(languages));
+  return dedupe;
+}
+
 const GistListItem = ({ owner, files, description, onSelect, isSelected }) => {
   const classes = useStyles();
 
-  const title = useMemo(() => {
-    return owner.login + "/" + Object.keys(files)[0];
-  }, [owner, files]);
-
-  const languages = useMemo(() => {
-    const languages = Object.values(files)
-      .map((file) => file.language)
-      .filter(Boolean)
-      .sort();
-    const dedupe = Array.from(new Set(languages));
-    return dedupe;
-  }, [files]);
+  const languages = useMemo(() => extractGistLanguges(files), [files]);
+  const title = useMemo(() => computeGistTitle(owner, files), [owner, files]);
 
   return (
     <ListItem button onClick={onSelect}>

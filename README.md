@@ -7,7 +7,7 @@ This is an assignement for a frontend interview - [see details here](Frontend%20
 
 1. I used [Material UI](https://material-ui.com/)
 2. The whole app works in one page, i first wanted to to multiple pages, but then i realsied it would be an overkill, the data we are displaying is simple & small, and it makes sense for the user to see all his exploration in one page, think of it as the `Lists` view option in MacOS Finder.
-3. Columns start sliding in as you choose your data which directs user attention to the next section they should be looking it.
+3. Columns start sliding in as you choose your data which directs user attention to the next section they should be looking at.
 
 ### Search
 1. Once the page is loaded, Search field is auto focused, the user can start typing immedietly
@@ -18,14 +18,14 @@ This is an assignement for a frontend interview - [see details here](Frontend%20
 ## Gists List
 1. Appears as the second column, displays the user's gists in a list
 2. For each gist, the user can see 
-  a. Gist's name (uses first filename, inspired from [github's UI](https://gist.github.com/abusada))
-  b. Gist's description
-  c. Gist's programming langauges
+  a) Gist's name (uses first filename, inspired from [github's UI](https://gist.github.com/abusada))
+  b) Gist's description
+  c) Gist's programming langauges
 
 ## Gist Details
 1. has two sections (tabs)
- a. Gist files, displays files with syntax highlighting, User can click on a file to see it's full code in a fullscreen
- b. Forks, displays a list of users who forked this gist.
+ a) Gist files, displays files with syntax highlighting, User can click on a file to see it's full code in a fullscreen. 
+ b) Forks, displays a list of users who forked this gist. 
  
 
 ## Techincal Decisions

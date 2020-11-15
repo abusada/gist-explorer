@@ -62,6 +62,7 @@ Each item in `gist.files` response has a `language` propery, it means that githu
 
 ## Todo Improvements
 
+- [ ] Enhance documentation (i mean this readme file)
 - [ ] Handle Errors & Github Rate Limit
 - [ ] More visually appealing `Loading...` components
 - [ ] Save query (searc, userId, gistId) in url, so that the page becomes shareable, and also when the user refreshes the page, data would persist.

@@ -1,7 +1,9 @@
-import useLocalStorage from "./useLocalStorage";
+// import useLocalStorage from "./useLocalStorage";
+import createPersistedState from "use-persisted-state";
+const useRecentsState = createPersistedState("GE_RECENTS");
 
 export default function useRecents() {
-  const [recents, setRecents] = useLocalStorage("GE_RECENT_SEARCHED", []);
+  const [recents, setRecents] = useRecentsState([]);
 
   return {
     get() {

@@ -5,7 +5,7 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
 import ListItemText from "@material-ui/core/ListItemText";
 import DeleteIcon from "@material-ui/icons/Delete";
-import React from "react";
+import React, { memo } from "react";
 
 const Recents = ({ recents, onDelete, onSelect }) => (
   <>
@@ -31,4 +31,4 @@ const Recents = ({ recents, onDelete, onSelect }) => (
   </>
 );
 
-export default Recents;
+export default memo(Recents);

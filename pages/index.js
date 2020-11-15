@@ -107,7 +107,7 @@ export default function GistExplorer() {
                 Public gists by {user?.login}
               </Typography>
               <GistsList
-                owner={user?.login}
+                ownerLogin={user?.login}
                 selectedGist={gist}
                 onSelect={handleGistSelect}
               />

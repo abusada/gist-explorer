@@ -18,8 +18,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export function computeGistTitle(ownerName, files) {
-  return ownerName + "/" + Object.keys(files)[0];
+export function computeGistTitle(owner, files) {
+  return owner + "/" + Object.keys(files)[0];
 }
 
 export function extractGistLanguges(files) {
@@ -34,7 +34,10 @@ const GistListItem = ({ owner, files, description, onSelect, isSelected }) => {
   const classes = useStyles();
 
   const languages = useMemo(() => extractGistLanguges(files), [files]);
-  const title = useMemo(() => computeGistTitle(owner, files), [owner, files]);
+  const title = useMemo(() => computeGistTitle(owner.login, files), [
+    owner.login,
+    files,
+  ]);
 
   return (
     <ListItem button onClick={onSelect}>
@@ -70,9 +73,9 @@ const GistListItem = ({ owner, files, description, onSelect, isSelected }) => {
   );
 };
 
-export default function GistsList({ owner, selectedGist, onSelect }) {
+export default function GistsList({ ownerLogin, selectedGist, onSelect }) {
   const classes = useStyles();
-  const { data, isLoading, isError } = useUserGists(owner);
+  const { data, isLoading, isError } = useUserGists(ownerLogin);
 
   const isIdle = !isLoading && !isError && !data;
   const isEmpty = data && data.length === 0;

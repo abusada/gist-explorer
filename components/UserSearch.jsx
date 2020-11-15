@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import useDebounced from "../hooks/useDebounced";
 import useRecents from "../hooks/useRecents";
 import useUserSearch from "../hooks/useUserSearch";
@@ -22,6 +22,20 @@ const UserSearch = ({ selectedUser, onSelect, onSearchInitiated }) => {
   const handleSearchClear = () => setSearchValue("");
   const handleSearch = (e) => setSearchValue(e.target.value);
 
+  const handleRecentsDelete = useCallback(
+    (value) => {
+      recents.remove(value);
+    },
+    [recents.get().length]
+  );
+
+  const handleRecentsSelect = useCallback(
+    (selection) => {
+      setSearchValue(selection);
+    },
+    [recents.get().length]
+  );
+
   return (
     <>
       <SearchField
@@ -40,8 +54,8 @@ const UserSearch = ({ selectedUser, onSelect, onSearchInitiated }) => {
       {showRecents && (
         <Recents
           recents={recents.get()}
-          onDelete={(value) => recents.remove(value)}
-          onSelect={(selection) => setSearchValue(selection)}
+          onDelete={handleRecentsDelete}
+          onSelect={handleRecentsSelect}
         />
       )}
     </>
